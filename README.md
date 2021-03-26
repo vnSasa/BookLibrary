@@ -27,13 +27,17 @@ GET: localhost:9191/api/v1/books/ - get all books
 GET: localhost:9191/api/v1/books/1 - get book wih id 1
 
 POST: localhost:9191/api/v1/users/ Request body: {"id":1,"name":"Dominic"} - create a user with id 1 and name Dominic
+
 POST: localhost:9191/api/v1/books/ Request body: {"id":1,"name":"The Lord of the Rings"} - create a book with id and name The Lord of the Rings
 
 PUT: localhost:9191/api/v1/users/ Request body: {"id":1,"name":"Kevin"} - update a user with id 1
+
 PUT: localhost:9191/api/v1/books/ Request body: {"id":1,"name":"Jane Eyre"} - update a book with id 1
 
 PUT: localhost:9191/api/v1/books/1/take/2 - Take a book with id 1(a book will become taken by user with id 2)
+
 PUT: localhost:9191/api/v1/books/1/return - Return book (a book will be free for another user to take)
 
 DELETE: localhost:9191/api/v1/users/2 - delete user with id 2
+
 DELETE: localhost:9191/api/v1/bookss/2 - delete book with id 2
