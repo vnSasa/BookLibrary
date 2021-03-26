@@ -26,8 +26,8 @@ GET: localhost:9191/api/v1/users/1 - get user with id 1
 GET: localhost:9191/api/v1/books/ - get all books
 GET: localhost:9191/api/v1/books/1 - get book wih id 1
 
-POST: localhost:9191/api/v1/users/ Request body: {"id":1,"name":"Dominic"} - create a user with id 1 and name Jack
-POST: localhost:9191/api/v1/books/ Request body: {"id":1,"name":"The Lord of the Rings"} - create a book with id and name Necronomicon
+POST: localhost:9191/api/v1/users/ Request body: {"id":1,"name":"Dominic"} - create a user with id 1 and name Dominic
+POST: localhost:9191/api/v1/books/ Request body: {"id":1,"name":"The Lord of the Rings"} - create a book with id and name The Lord of the Rings
 
 PUT: localhost:9191/api/v1/users/ Request body: {"id":1,"name":"Kevin"} - update a user with id 1
 PUT: localhost:9191/api/v1/books/ Request body: {"id":1,"name":"Jane Eyre"} - update a book with id 1
